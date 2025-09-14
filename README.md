@@ -1,7 +1,12 @@
 # RSMM – Remote Soil Moisture Monitoring (Mumbai Case Study)
 
 ![Region Split](https://raw.githubusercontent.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/refs/heads/main/GEE%20Scripts/region_split.png)
+---
 
+## Status
+🚧 **Work in Progress** – Methodology development and validation ongoing.  
+
+---
 ## Overview
 This repository hosts work-in-progress code and resources for a research study being co-authored by Rohan Amudhala and the Indian Institute of Tropical Meteorology (IITM), Pune, focusing on remote sensing of soil moisture content in the urban region of Mumbai, India.
 
@@ -133,17 +138,17 @@ Soil moisture is derived by locating a pixel’s **relative position between the
 - The methodology is **scalable and replicable** to other urban regions facing water resource management challenges.  
 
 ---
+## Author
+This project is developed and maintained by **[Rohan Amudhala]** as part of a research collaboration.  
 
-## Repository Structure
-```bash
-RSMM-Remote-Soil-Moisture-Monitoring/
-│
-├── GEE/                  # Google Earth Engine scripts for data extraction
-│   ├── region_split.js    # Script defining Mumbai’s 3 subregions
-│   └── *.js               # Scripts for fetching MODIS NDVI & LST
-│
-├── region_split.png       # Visualization of study subregions
-├── README.md              # Project documentation (this file)
-└── (future additions)     # Soil moisture estimation code, results, notebooks
+---
+
+## Acknowledgements
+This study is conducted in collaboration with the **Indian Institute of Tropical Meteorology (IITM), Pune**.  
+
+We also acknowledge the foundational work of **Carlson, T.N., et al. (1994)** on the NDVI–LST Triangle Method, which underpins the methodology applied in this study.  
+
+Special thanks to the MODIS data providers and the Google Earth Engine platform for enabling large-scale data access and processing.
+
 
 
