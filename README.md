@@ -12,7 +12,7 @@ A system to remotely monitor soil moisture through sensors, visualize data, and 
 - [Motivation](#motivation)  
 - [Features](#features)  
 - [Architecture](#architecture)  
-- [Setup & Installation](#setup--installation)  
+- [Installation](#installation)  
 - [Usage](#usage)  
 - [Directory Structure](#directory-structure)  
 - [Dependencies](#dependencies)  
@@ -54,3 +54,20 @@ Soil moisture is a critical parameter for agriculture, landscaping, and environm
 
 A high-level overview of the workflow:
 
+
+- **Sensors**: Soil moisture sensors deployed in field.  
+- **Data collection**: Scripts or hardware reading sensor values periodically.  
+- **Storage**: Local or cloud-based storage for raw and processed data.  
+- **Processing**: Data cleaning, aggregation, and thresholding.  
+- **Visualization & Alerts**: Dashboards, plots, and notifications.  
+
+---
+
+## Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring.git
+   cd RSMM-Remote-Soil-Moisture-Monitoring
+python3 -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
