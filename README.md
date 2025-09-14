@@ -82,7 +82,41 @@ Soil moisture is derived by locating a pixel’s **relative position between the
 
 ### 3. Edge Fitting with Gradient Descent
 - Wet and dry edges are approximated using **linear regression fits**.  
-- To improve accuracy, the study employs **gradient descent** to minimize the residuals between observed and estimated boundaries.  
+- To improve accuracy, the study employs **gradient descent** to minimize the residuals between observed and estimated boundaries.
+  ```bash
+  def gradient_descent_regression(filename, color_points, color_line, label_points, label_line):
+    df = pd.read_csv(filename)
+    df.columns = df.columns.str.strip()
+
+    x = df["NDVI"].values
+    y = df["LST (°C)"].values
+
+    x_mean, x_std = np.mean(x), np.std(x)
+    x_norm = (x - x_mean) / x_std
+
+    m, b = 0.0, 0.0
+    alpha, epochs = 0.01, 1000
+    n = len(x_norm)
+
+    for epoch in range(epochs):
+        y_pred = m * x_norm + b
+        error = y_pred - y
+        dm = (2/n) * np.dot(error, x_norm)
+        db = (2/n) * np.sum(error)
+        m -= alpha * dm
+        b -= alpha * db
+
+    x_line = np.linspace(0, 0.6, 100)
+    x_line_norm = (x_line - x_mean) / x_std
+    y_line = m * x_line_norm + b
+
+    plt.scatter(x, y, color=color_points, label=label_points)
+    plt.plot(x_line, y_line, color=color_line, linewidth=2, label=label_line)
+
+    slope_original = m / x_std
+    intercept_original = b - (m * x_mean / x_std)
+    return slope_original, intercept_original
+  ```
 - This ensures robust estimation of soil moisture across varying land cover and climatic conditions.  
 
 ---
