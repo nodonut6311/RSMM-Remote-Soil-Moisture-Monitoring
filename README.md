@@ -15,7 +15,7 @@ The aim is to **estimate soil moisture using the "triangle method"** (Carlson et
 
 ## Objectives
 - Remotely sense soil moisture variations over Mumbai using MODIS data.  
-- Split Mumbai into **three sub-regions (districts)** for analysis (see [region_split.js](GEE/region_split.js)).  
+- Split Mumbai into **three sub-regions (districts)** for analysis (see [region_split.js](https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/blob/main/GEE%20Scripts/region_split.js)).  
 - Apply the **Triangle Method** to estimate soil moisture via the NDVI–LST feature space.  
 - Validate soil moisture estimates against **rainfall datasets sourced from IITM, Pune**.  
 
