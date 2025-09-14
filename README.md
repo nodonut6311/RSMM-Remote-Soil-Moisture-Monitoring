@@ -3,7 +3,7 @@
 ![Region Split](https://raw.githubusercontent.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/refs/heads/main/GEE%20Scripts/region_split.png?token=GHSAT0AAAAAADKRC4YQH7C7E5A75NUIR22K2GG62YQ)
 
 ## Overview
-This repository hosts work-in-progress code and resources for a collaborative study between **Indian Institute of Tropical Meteorology (IITM), Pune** and contributors, focusing on **remote sensing of soil moisture content** in the **urban region of Mumbai, India**.  
+This repository hosts work-in-progress code and resources for a research study being co-authored by Rohan Amudhala and the Indian Institute of Tropical Meteorology (IITM), Pune, focusing on remote sensing of soil moisture content in the urban region of Mumbai, India.
 
 The study leverages **MODIS satellite products**:
 - **MOD13Q1** → Normalized Difference Vegetation Index (NDVI)  
@@ -62,7 +62,7 @@ var region1 = ee.Geometry.Polygon([
 - **MODIS MOD13Q1 (NDVI)** – Biweekly vegetation index data.  
 - **MODIS MOD11A2 (LST)** – 8-day composite land surface temperature.  
 - **Rainfall data from IITM, Pune** – Used for validation.  
-- Data was extracted via **Google Earth Engine (GEE)** scripts located in the [`GEE`](GEE/) folder.
+- Data was extracted via **Google Earth Engine (GEE)** scripts located in the [`GEE`](https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/tree/main/GEE%20Scripts) folder.
 
 ---
 
