@@ -1,6 +1,6 @@
 # RSMM – Remote Soil Moisture Monitoring (Mumbai Case Study)
 
-![Region Split](https://drive.google.com/file/d/1-wIOmVoO0RKVuTmHAWTPcKzANNPFddGj/view)
+![Region Split](https://drive.google.com/file/d/1-wIOmVoO0RKVuTmHAWTPcKzANNPFddGj/view?usp=share_link)
 
 ## Overview
 This repository hosts work-in-progress code and resources for a research study being co-authored by Rohan Amudhala and the Indian Institute of Tropical Meteorology (IITM), Pune, focusing on remote sensing of soil moisture content in the urban region of Mumbai, India.
