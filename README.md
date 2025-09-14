@@ -138,6 +138,37 @@ Soil moisture is derived by locating a pixel’s **relative position between the
 - The methodology is **scalable and replicable** to other urban regions facing water resource management challenges.  
 
 ---
+## How to Run
+
+### 1. Prerequisites
+- A [Google Earth Engine (GEE)](https://earthengine.google.com/) account.  
+- Basic familiarity with JavaScript (for running the scripts in the GEE Code Editor).  
+- Python ≥ 3.8 (for upcoming soil moisture analysis code).  
+
+Optional (for validation/analysis workflows to be added later):
+- `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+
+---
+
+### 2. Running GEE Scripts
+1. Open [Google Earth Engine Code Editor](https://code.earthengine.google.com/).  
+2. Copy the contents of any script from the [`GEE`](GEE/) folder.  
+   - Example: `region_split.js` defines the three subregions of Mumbai.  
+   - Example: Other scripts fetch MODIS NDVI (MOD13Q1) and LST (MOD11A2).  
+3. Paste the script into the GEE editor.  
+4. Modify the **date range** and **export options** as required.  
+5. Run the script to visualize outputs and export data (GeoTIFF/CSV).  
+
+---
+
+### 3. Local Analysis (future steps)
+Once the soil moisture estimation notebooks are added, you can clone this repository and run:
+
+```bash
+git clone https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring.git
+cd RSMM-Remote-Soil-Moisture-Monitoring
+```
+---
 ## Author
 This project is developed and maintained by **[Rohan Amudhala]** as part of a research collaboration.  
 
