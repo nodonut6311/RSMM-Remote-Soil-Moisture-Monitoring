@@ -16,8 +16,8 @@ The study leverages **MODIS satellite products**:
 
 The aim is to **estimate soil moisture using the "triangle method"** (Carlson et al.) at a **1 km resolution**—a spatial scale highly relevant for heterogeneous cities like Mumbai. This study is generalizable and can be replicated for other regions.  
 <p align="center">
-  <img src="https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/blob/main/Raw%20Data%20Visualization/Mean_2013_2024.jpeg" alt="LST Viz" width="400" height="200"/>
-  <img src="https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/blob/main/Raw%20Data%20Visualization/NDVI_2013.jpeg" alt="NDVI Viz" width="400"/>
+  <img src="https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/blob/main/Raw%20Data%20Visualization/Mean_2013_2024.jpeg" alt="LST Viz" width="400" height="400"/>
+  <img src="https://github.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/blob/main/Raw%20Data%20Visualization/NDVI_2013.jpeg" alt="NDVI Viz" width="400" height="350"/>
 </p>
 ---
 
