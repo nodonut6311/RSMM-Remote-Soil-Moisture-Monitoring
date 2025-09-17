@@ -4,7 +4,7 @@
 ---
 
 ## Status
-🚧 **Work in Progress** – Methodology development and validation ongoing.  
+🚧 **Work in Progress** – Methodology development and validation ongoing.
 
 ---
 ## Overview
