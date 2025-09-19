@@ -12,7 +12,7 @@ This repository hosts work-in-progress code and resources for a research study b
 
 The study leverages **MODIS satellite products**:
 - **MOD13Q1** → Normalized Difference Vegetation Index (NDVI)  
-- **MOD11A2** → Land Surface Temperature (LST  ) 
+- **MOD11A2** → Land Surface Temperature (LST) 
 
 The aim is to **estimate soil moisture using the "triangle method"** (Carlson et al.) at a **1 km resolution**—a spatial scale highly relevant for heterogeneous cities like Mumbai. This study is generalizable and can be replicated for other regions.  
 <p align="center">
