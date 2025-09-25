@@ -11,7 +11,7 @@
 This repository hosts work-in-progress code and resources for a research study being co-authored by Rohan Amudhala and the Indian Institute of Tropical Meteorology (IITM), Pune, focusing on remote sensing of soil moisture content in the urban region of Mumbai, India.
 
 The study leverages **MODIS satellite products**:
-- **MOD13Q1** → Normalized Difference Vegetation  (NDVI)  
+- **MOD13Q1** → Normalized Difference Vegetation Index (NDVI)  
 - **MOD11A2** → Land Surface Temperature (LST) 
 
 The aim is to **estimate soil moisture using the "triangle method"** (Carlson et al.) at a **1 km resolution**—a spatial scale highly relevant for heterogeneous cities like Mumbai. This study is generalizable and can be replicated for other regions.  
