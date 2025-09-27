@@ -8,7 +8,7 @@ var region1 = ee.Geometry.Polygon([
   ]);
   
   // Region 2: Kandivali East / Malad East Area
-  var region2 = ee.Geometry.Polygon([
+  var region2 = ee.Geometry.Polygon([  
     [72.81128250675029, 19.156843569935948],
     [72.90741287784404, 19.156843569935948],
     [72.90741287784404, 19.265775960068403],
