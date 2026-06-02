@@ -3,7 +3,7 @@
 ![Region Split](https://raw.githubusercontent.com/nodonut6311/RSMM-Remote-Soil-Moisture-Monitoring/refs/heads/main/GEE%20Scripts/region_split.png)
 ---
 
-## Status
+## Status  
 🚧 **Work in Progress** – Methodology development and validation ongoing.
 
 ---
